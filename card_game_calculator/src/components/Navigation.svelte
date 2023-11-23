@@ -1,5 +1,5 @@
 <script>
-	import WebsiteLogo from '../lib/images/cribbage-logo.svg';
+	import WebsiteLogo from '../lib/images/website-logo.svg';
 </script>
 
 <header>
@@ -8,12 +8,12 @@
 			<a class="navbar-brand" href="/">
 				<img
 					src={WebsiteLogo}
-					alt="Cribbage Tournament Tracker logo"
+					alt="Card Game Calculator"
 					width="30"
 					height="24"
 					class="d-inline-block pe-2"
 				/>
-				Cribbage Tournament Tracker
+				Card Game Calculator
 			</a>
 			<button
 				class="navbar-toggler"
@@ -27,6 +27,7 @@
 				<span class="navbar-toggler-icon" />
 			</button>
 		</div>
+		<!-- TODO: For now, hiding this tab navigation since we are not using it. We may use this later on.
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
 				<li class="nav-item">
@@ -36,7 +37,7 @@
 					<a class="nav-link" href="/about">About</a>
 				</li>
 			</ul>
-		</div>
+		</div> -->
 	</nav>
 </header>
 

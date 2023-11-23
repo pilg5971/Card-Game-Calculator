@@ -1,10 +1,10 @@
 <script>
-	import Header from '../components/Header.svelte';
+	import Navigation from '../components/Navigation.svelte';
 	import './styles.css';
 </script>
 
 <div class="app">
-	<Header />
+	<Navigation />
 
 	<main class="d-flex flex-grow-1">
 		<slot />
@@ -19,14 +19,5 @@
 	}
 
 	main {
-    
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
 	}
 </style>
